@@ -1,0 +1,52 @@
+.attribution {
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:20px;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    font-family: sans-serif;
+    a{
+        color: hsl(12, 100%, 63%)
+    }
+    @include phone{
+        position: relative;
+        left:0;
+        transform: translate(0);
+        padding:0 2rem;
+    }
+}
+
+section{
+    @include flex;
+    padding:3.2rem;
+    &:nth-of-type(1){
+        background-color: $orange;
+        .button{
+            color:$orange;
+        }
+    }
+    &:nth-of-type(2){
+        background-color: $cyan;
+        .button{
+            color:$cyan;
+        }
+    }
+    &:nth-of-type(3){
+        background-color: $darkCyan;
+        .button{
+            color:$darkCyan;
+        }
+    }
+    .button{
+        @include hover-focus{
+            background-color: transparent;
+            color:$grey;
+
+        }
+    }
+    @include phone{
+        padding:3rem;
+    }
+}

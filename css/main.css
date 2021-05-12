@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+.button {
+  color: #f2f2f2;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 0.8rem 2.2rem;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 2px solid #f2f2f2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 5rem;
+  line-height: 1.5em;
+}
+
+.attribution {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  font-family: sans-serif;
+}
+
+.attribution a {
+  color: #ff6842;
+}
+
+@media screen and (max-width: 375px) {
+  .attribution {
+    position: relative;
+    left: 0;
+    transform: translate(0);
+    padding: 0 2rem;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3.2rem;
+}
+
+section:nth-of-type(1) {
+  background-color: #e38826;
+}
+
+section:nth-of-type(1) .button {
+  color: #e38826;
+}
+
+section:nth-of-type(2) {
+  background-color: #006970;
+}
+
+section:nth-of-type(2) .button {
+  color: #006970;
+}
+
+section:nth-of-type(3) {
+  background-color: #004241;
+}
+
+section:nth-of-type(3) .button {
+  color: #004241;
+}
+
+section .button:hover, section .button:focus {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    padding: 3rem;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f2f2f2;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  max-width: 90%;
+  width: 930px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

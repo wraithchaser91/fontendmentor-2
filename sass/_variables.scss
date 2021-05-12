@@ -1,0 +1,17 @@
+$mobileBreakPoint: 375px;
+$tabletBreakPoint: 1024px;
+$laptopBreakPoint: 1440px;
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$lexend: "Lexend Deca", sans-serif;
+$bigShoulders: "Big Shoulders Display", cursive;
+
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$darkCyan: hsl(179, 100%, 13%);
+
+$white: hsla(0, 0%, 100%, 0.75);
+$grey: hsl(0, 0%, 95%);
+
+$bodyTextSize: 15px;

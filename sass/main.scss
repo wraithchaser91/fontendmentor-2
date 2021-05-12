@@ -1,0 +1,25 @@
+@import
+    "variables",
+    "setup",
+    "typography",
+    "components"
+;
+
+body{
+    @include flex($x-align:center);
+    min-height:100vh;
+    width:100vw;
+    background-color: $grey;
+}
+
+main{
+    @include flex($direction: row, $y-align: stretch);
+    max-width: 90%;
+    width:930px;
+    border-radius: 10px;
+    overflow: hidden;
+    @include phone{
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+}
